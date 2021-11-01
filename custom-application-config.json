@@ -3,9 +3,16 @@
   "entryPointUriPath": "test-mmaltsev",
   "cloudIdentifier": "gcp-eu",
   "env": {
+    "development": {
+      "initialProjectKey": "almond-40"
+    },
     "production": {
       "url": "https://<your_app_hostname>"
     }
+  },
+  "oAuthScopes": {
+    "view": ["view_products"],
+    "manage": []
   },
   "menuLinks": {
     "icon": "HeartIcon",
