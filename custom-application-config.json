@@ -1,0 +1,24 @@
+{
+  "name": "Test Mmaltsev",
+  "entryPointUriPath": "test-mmaltsev",
+  "cloudIdentifier": "gcp-eu",
+  "env": {
+    "production": {
+      "url": "https://<your_app_hostname>"
+    }
+  },
+  "menuLinks": {
+    "icon": "HeartIcon",
+    "defaultLabel": "Test Mmaltsev",
+    "labelAllLocales": [],
+    "permissions": [],
+    "submenuLinks": [
+      {
+        "uriPath": "channels",
+        "defaultLabel": "Channels",
+        "labelAllLocales": [],
+        "permissions": []
+      }
+    ]
+  }
+}
