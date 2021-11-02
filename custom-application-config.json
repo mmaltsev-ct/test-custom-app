@@ -8,7 +8,7 @@
       "initialProjectKey": "almond-40"
     },
     "production": {
-      "url": "https://mc-test-mmaltsev.vercel.app",
+      "url": "https://test-custom-app-mmaltsev-ct.vercel.app",
       "applicationId": "${env:APPLICATION_ID}"
     }
   },

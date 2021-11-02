@@ -7,8 +7,8 @@ module.exports =  function transformer({ headers }) {
   const config = {
     version: 2,
     public: true,
-    name: 'mc-test-mmaltsev.vercel.app',
-    alias: 'mc-test-mmaltsev.vercel.app',
+    name: 'test-custom-app-mmaltsev-ct',
+    alias: 'test-custom-app-mmaltsev-ct',
     regions: ['bru'],
     builds: [
       { src: 'public/**', use: '@vercel/static' },
