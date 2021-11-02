@@ -16,7 +16,8 @@
     "lint": "jest --config jest.eslint.config.js",
     "format": "prettier --write '**/*.js'",
     "versions:appkit": "manypkg upgrade @commercetools-frontend",
-    "versions:uikit": "manypkg upgrade @commercetools-uikit"
+    "versions:uikit": "manypkg upgrade @commercetools-uikit",
+    "vercel-build": "yarn build && yarn compile-html"
   },
   "dependencies": {
     "@apollo/client": "3.4.16",

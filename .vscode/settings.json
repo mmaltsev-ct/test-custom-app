@@ -1,0 +1,12 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/.custom-application-configrc",
+        "/.custom-application-config.json",
+        "/custom-application-config.json"
+      ],
+      "url": "https://docs.commercetools.com/custom-applications/schema.json"
+    }
+  ]
+}

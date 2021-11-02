@@ -14,7 +14,7 @@ const ApplicationRoutes = () => {
   // For example, we can show an unauthorized page if the user does not have
   // the permission to `view` products.
   const canViewChannels = useIsAuthorized({
-    demandedPermissions: [PERMISSIONS.ViewProducts],
+    demandedPermissions: [PERMISSIONS.ViewTestMmaltsev],
   });
 
   return (

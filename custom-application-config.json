@@ -2,12 +2,14 @@
   "name": "Test Mmaltsev",
   "entryPointUriPath": "test-mmaltsev",
   "cloudIdentifier": "gcp-eu",
+  "mcApiUrl": "https://mc-api.europe-west1.gcp.escemo.com",
   "env": {
     "development": {
       "initialProjectKey": "almond-40"
     },
     "production": {
-      "url": "https://<your_app_hostname>"
+      "url": "https://<your_app_hostname>",
+      "applicationId": "ckvi5kadd2yhc075299ylm1m3"
     }
   },
   "oAuthScopes": {

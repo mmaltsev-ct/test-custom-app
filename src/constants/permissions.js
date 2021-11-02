@@ -1,4 +1,4 @@
 export const PERMISSIONS = {
-  ManageProducts: 'ManageProducts',
-  ViewProducts: 'ViewProducts',
+  ManageTestMmaltsev: 'ManageTestMmaltsev',
+  ViewTestMmaltsev: 'ViewTestMmaltsev',
 };
