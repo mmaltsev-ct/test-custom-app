@@ -7,7 +7,7 @@
     "postinstall": "manypkg check",
     "build": "mc-scripts build",
     "start": "mc-scripts start",
-    "compile-html": "NODE_ENV=production mc-scripts compile-html",
+    "compile-html": "NODE_ENV=production mc-scripts compile-html --transformer $(pwd)/transformer-vercel.js",
     "compile-html:local": "NODE_ENV=production MC_APP_ENV=development mc-scripts compile-html --transformer @commercetools-frontend/mc-dev-authentication/transformer-local.js",
     "start:prod:local": "yarn compile-html:local && mc-scripts serve",
     "extract-intl": "formatjs extract --format=$(pwd)/intl-formatter.js --out-file=$(pwd)/src/i18n/data/core.json 'src/**/!(*.spec).js'",
